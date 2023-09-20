@@ -75,3 +75,10 @@ puts cities2.inspect  # ["Vienna", "Berlin", "Istanbul", "Amsterdam", "Goteburg"
 
 puts cities2.sort!.inspect # ["Amsterdam", "Berlin", "Goteburg", "Istanbul", "Vienna"]
 puts cities2.inspect # ["Amsterdam", "Berlin", "Goteburg", "Istanbul", "Vienna"]
+
+
+
+numbers_array = [2,3,4,5,6]
+
+numbers_array.collect! {|x| x*2}
+puts numbers_array.inspect # [4, 6, 8, 10, 12]
